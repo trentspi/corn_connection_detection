@@ -45,5 +45,5 @@ For running this model, run the following scripts with minor modifications:
 
 To execute the code go into the directory where you cloned the repo. And from command-promt/console/shell execute following
 commands:
-python Object_detection_image.py
-pyton Object_detection_video.py
+`python Object_detection_image.py`
+`pyton Object_detection_video.py`
