@@ -18,6 +18,8 @@ We trained using the same deep learning architecture used in the refernce projec
 It takes a long time to train the network, it took us quite long amount of time to train however much we have trained.
 And as a result we have a model that is good at detecting overall corn regions in the crop.
 
+Our training dataset can be found here: https://drive.google.com/drive/folders/1uAFqXdBKQmtmWChE4hY-2O0fCR2A4dS9
+
 
 ### Testing
 When we started testing, we realized that it didn't do good on the images for whose camera angles were weird. So if there
