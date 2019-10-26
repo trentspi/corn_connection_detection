@@ -1,5 +1,5 @@
 
-#Corn Connection Detection
+# Corn Connection Detection
 
 
 ### Pre-processing
@@ -43,7 +43,8 @@ For running this model, run the following scripts with minor modifications:
     * Edit line 22 in this script and replace it with video filename (including extenstion) that needs to be tested
 
 
+
 To execute the code go into the directory where you cloned the repo. And from command-promt/console/shell execute following
 commands:
-`python Object_detection_image.py`
-`pyton Object_detection_video.py`
+* `python Object_detection_image.py`
+* `pyton Object_detection_video.py`
