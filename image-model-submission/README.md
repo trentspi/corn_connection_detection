@@ -11,7 +11,7 @@
    
    # The filename of the image to be used for object detection
    # Change this filename in order to run an image through the detector
-   IMAGE_NAME = 'GOPR0391_4.jpg'
+   IMAGE_NAME = 'image.jpg'
    ```
    Change the `IMAGE_NAME` to be the filename of the image to be ran through the object detector
    
