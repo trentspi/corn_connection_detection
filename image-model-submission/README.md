@@ -15,7 +15,7 @@
    ```
    Change the `IMAGE_NAME` to be the filename of the image to be ran through the object detector
    
- 3. Run the following cells
+ 3. Run all of the notebook cells
  
  4. The last cell will execute the Open CV window for the object detection of the image itself
  ![](https://i.imgur.com/2hfsyR9.jpg)
