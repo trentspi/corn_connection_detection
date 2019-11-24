@@ -2,11 +2,11 @@
  "cells": [
   {
    "cell_type": "code",
-   "execution_count": 11,
+   "execution_count": 1,
    "metadata": {
     "ExecuteTime": {
-     "end_time": "2019-11-24T20:18:34.220963Z",
-     "start_time": "2019-11-24T20:18:34.214525Z"
+     "end_time": "2019-11-24T20:00:48.913391Z",
+     "start_time": "2019-11-24T20:00:47.942341Z"
     }
    },
    "outputs": [],
@@ -17,6 +17,9 @@
     "import tensorflow as tf\n",
     "import sys\n",
     "\n",
+    "# This is needed since the notebook is stored in the object_detection folder.\n",
+    "sys.path.append(\"..\")\n",
+    "\n",
     "# Import utilites\n",
     "from utils import label_map_util\n",
     "from utils import visualization_utils as vis_util"
@@ -24,11 +27,11 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 12,
+   "execution_count": 23,
    "metadata": {
     "ExecuteTime": {
-     "end_time": "2019-11-24T20:18:35.354471Z",
-     "start_time": "2019-11-24T20:18:35.349399Z"
+     "end_time": "2019-11-24T20:08:01.526985Z",
+     "start_time": "2019-11-24T20:08:01.524276Z"
     }
    },
    "outputs": [],
@@ -40,11 +43,11 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 13,
+   "execution_count": 25,
    "metadata": {
     "ExecuteTime": {
-     "end_time": "2019-11-24T20:18:36.330798Z",
-     "start_time": "2019-11-24T20:18:36.328220Z"
+     "end_time": "2019-11-24T20:08:26.958923Z",
+     "start_time": "2019-11-24T20:08:26.954497Z"
     }
    },
    "outputs": [],
@@ -68,11 +71,11 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 14,
+   "execution_count": 26,
    "metadata": {
     "ExecuteTime": {
-     "end_time": "2019-11-24T20:18:37.265731Z",
-     "start_time": "2019-11-24T20:18:37.260866Z"
+     "end_time": "2019-11-24T20:08:28.879094Z",
+     "start_time": "2019-11-24T20:08:28.876005Z"
     }
    },
    "outputs": [],
@@ -89,10 +92,11 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 27,
    "metadata": {
     "ExecuteTime": {
-     "start_time": "2019-11-24T20:18:37.635Z"
+     "end_time": "2019-11-24T20:08:31.650273Z",
+     "start_time": "2019-11-24T20:08:31.187735Z"
     }
    },
    "outputs": [],
@@ -111,11 +115,11 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 7,
+   "execution_count": 28,
    "metadata": {
     "ExecuteTime": {
-     "end_time": "2019-11-24T20:17:20.101870Z",
-     "start_time": "2019-11-24T20:17:20.074561Z"
+     "end_time": "2019-11-24T20:08:33.535347Z",
+     "start_time": "2019-11-24T20:08:33.506624Z"
     }
    },
    "outputs": [],
@@ -146,11 +150,11 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 8,
+   "execution_count": 29,
    "metadata": {
     "ExecuteTime": {
-     "end_time": "2019-11-24T20:17:24.867202Z",
-     "start_time": "2019-11-24T20:17:21.179449Z"
+     "end_time": "2019-11-24T20:08:36.843232Z",
+     "start_time": "2019-11-24T20:08:35.409043Z"
     }
    },
    "outputs": [],
@@ -163,11 +167,11 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 9,
+   "execution_count": 30,
    "metadata": {
     "ExecuteTime": {
-     "end_time": "2019-11-24T20:17:25.874623Z",
-     "start_time": "2019-11-24T20:17:25.830477Z"
+     "end_time": "2019-11-24T20:08:38.716610Z",
+     "start_time": "2019-11-24T20:08:38.701715Z"
     }
    },
    "outputs": [
@@ -225,7 +229,7 @@
        "        [ 39,  53,  72]]], dtype=uint8)"
       ]
      },
-     "execution_count": 9,
+     "execution_count": 30,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -246,11 +250,11 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 10,
+   "execution_count": 31,
    "metadata": {
     "ExecuteTime": {
-     "end_time": "2019-11-24T20:17:29.001511Z",
-     "start_time": "2019-11-24T20:17:26.876235Z"
+     "end_time": "2019-11-24T20:08:44.641417Z",
+     "start_time": "2019-11-24T20:08:40.595467Z"
     }
    },
    "outputs": [],
@@ -264,6 +268,13 @@
     "# Clean up\n",
     "cv2.destroyAllWindows()"
    ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
   },
   {
    "cell_type": "code",
