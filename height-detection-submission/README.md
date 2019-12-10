@@ -1,5 +1,6 @@
 # Height Detection 
 
+![image](https://i.imgur.com/LCcWRQt.png)
 
 ## Method Summary
 
