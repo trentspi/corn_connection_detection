@@ -16,7 +16,7 @@ we used a reference:
 https://github.com/EdjeElectronics/TensorFlow-Object-Detection-API-Tutorial-Train-Multiple-Objects-Windows-10
 
 ### Training
-We trained using the same deep learning architecture used in the refernce project, the faster resnet network.
+We trained using the same deep learning architecture used in the reference project, the faster resnet network.
 It takes a long time to train the network, it took us quite long amount of time to train however much we have trained.
 And as a result we have a model that is good at detecting overall corn regions in the crop.
 
